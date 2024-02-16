@@ -1,10 +1,38 @@
+
 .background{
-    background-color: grey;
+    text-align: center;
+    margin: 0px !important;
     overflow: hidden;
 }
 
-#canvas{
-    width: 95%;
-    margin: 50px;
-    background-color: white;
+/* Project Header (title)*/
+h1{
+    position: relative;
+    margin-top: 20%;
+    width: 100%;
+    z-index: 1 !important;
+    font-size: 5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+ 
+}
+
+/* Project Subheader (Author)*/
+h2{
+    position: relative;
+    width: 100%;
+    z-index: 1 !important;
+    font-size: 3rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+canvas{
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
 }
